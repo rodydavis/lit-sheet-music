@@ -4,6 +4,6 @@ Render sheet music using [opensheetmusicdisplay](https://github.com/opensheetmus
 
 You can try the demo [here](https://rodydavis.github.io/lit-sheet-music/)!
 
-This used the contenteditable property that browsers support for full document editing and text formatting.
+You can read more about how to write music xml [here](https://www.musicxml.com/).
 
 ![](/screenshot.png)

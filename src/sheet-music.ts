@@ -7,6 +7,8 @@ type DrawingType = "compact" | "default";
 
 @customElement("sheet-music")
 export class SheetMusic extends LitElement {
+  _zoom = 1.0;
+  
   @property({ type: Boolean }) allowDrop = false;
   @property() src = "";
 
@@ -18,7 +20,6 @@ export class SheetMusic extends LitElement {
     backend: "canvas" as BackendType,
     drawingParameters: "default" as DrawingType,
   };
-  _zoom = 1.0;
 
   static styles = css`
     main {

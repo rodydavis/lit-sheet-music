@@ -1,3 +1,5 @@
+[![Demo](https://github.com/rodydavis/lit-sheet-music/actions/workflows/ci.yml/badge.svg)](https://github.com/rodydavis/lit-sheet-music/actions/workflows/ci.yml)
+
 # Lit Sheet Music
 
 Render sheet music using [opensheetmusicdisplay](https://github.com/opensheetmusicdisplay/opensheetmusicdisplay) built with [Lit](https://lit.dev).

@@ -10,7 +10,7 @@ export class SheetMusic extends LitElement {
   @property({ type: Boolean }) allowDrop = false;
   @property() src = "";
 
-  @query("main") canvas!: HTMLCanvasElement;
+  @query("main") canvas!: HTMLElement;
 
   controller?: OpenSheetMusicDisplay;
   options: IOSMDOptions = {

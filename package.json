@@ -1,0 +1,17 @@
+{
+  "version": "0.0.0",
+  "name": "lit-sheet-music",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.2",
+    "opensheetmusicdisplay": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.1",
+    "typescript": "^4.1.3",
+    "vite": "^2.3.5"
+  }
+}
